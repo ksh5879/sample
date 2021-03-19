@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>에듀마루 콘텐츠</title>
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="logo"></div>
+
+            <div class="titleWrap">
+                <div class="title">에듀마루 콘텐츠</div>
+            </div>
+
+            <div class="searchWrap">
+                <div class="selectOption">
+                    <select name="selectBox" class="selectBox" id="selectBox">
+                        <option label="select" value="default" selected></option>
+                        <optgroup label="년도별">
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                        </optgroup>
+                        <optgroup label="발주처별" class="orders"></optgroup>
+                        <optgroup label="개발형태별">
+                            <option value="flash">플래시</option>
+                            <option value="vod">VOD</option>
+                            <option value="html5">HTML5(플래시 영상)</option>
+                            <option value="html5">HTML5(프리미어 영상)</option>
+                            <option value="ebook">e-book</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="searchOption">
+                    <div class="searchInput">
+                        <input type="text" name="terms" class="terms" value="" placeholder="검색어 입력" />
+                    </div>
+
+                    <div class="searchBtn">검색</div>
+                </div>
+                <!-- projectViewSearch -->
+            </div>
+
+            <div class="projectWrap">
+                <!-- <div class="courseList">
+                    <div class="courseWrap">
+                        <div class="course">과정명 1</div>
+                        <div class="year">202001</div>
+                        <div class="order">에듀마루</div>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <th class="tableTitle">차시</th>
+                            <th class="tableTitle">차시명</th>
+                            <th class="tableTitle">콘텐츠</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>태권도에서의 지도성)</td>
+                            <td><div class="viewCont">완료</div></td>
+                        </tr>
+                    </table>
+                </div> -->
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="./js/info.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>

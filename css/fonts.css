@@ -1,0 +1,74 @@
+/*
+made by EDUMARU
+https://gist.github.com/ludens
+*/
+
+/* 배달의 민족(BM) */
+@font-face {
+    font-family: 'BMJUA';
+    src: url('../fonts/BMJUA.woff2') format('woff2'), url('../fonts/BMJUA.woff') format('woff');
+}
+
+/* 지마켓(Gmarket Sans) */
+@font-face {
+    font-family: 'GmarketSansM';
+    src: url('../fonts/GmarketSansTTFMedium.woff') format('woff');
+}
+
+/*
+나눔고딕(NanumGothic)
+https://github.com/demun/NanumGothic
+*/
+@font-face {
+    font-family: 'NanumGothicR';
+    src: local('NanumGothic-Regular'), url('../fonts/NanumGothic-Regular.woff2') format('woff2'), url('../fonts/NanumGothic-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'NanumGothicB';
+    src: local('NanumGothic-Bold'), url('../fonts/NanumGothic-Bold.woff2') format('woff2'), url('../fonts/NanumGothic-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'NanumGothicEB';
+    src: local('NanumGothic-ExtraBold'), url('../fonts/NanumGothic-ExtraBold.woff2') format('woff2'), url('../fonts/NanumGothic-ExtraBold.woff') format('woff');
+}
+
+/*
+나눔스퀘어(NanumSquare)
+https://github.com/blood72/NanumSquare
+https://github.com/BhoneyKim/fonts
+*/
+@font-face {
+    font-family: 'NanumSquareB';
+    src: url('../fonts/NanumSquareB.woff2') format('woff2'), url('../fonts/NanumSquareB.woff') format('woff');
+}
+@font-face {
+    font-family: 'NanumSquareEB';
+    src: url('../fonts/NanumSquareEB.woff2') format('woff2'), url('../fonts/NanumSquareEB.woff') format('woff');
+}
+
+/*
+본고딕(NotoSans)
+https://creativestudio.kr/844
+https://github.com/ajkj/NotoSansKR/tree/master/dist/fonts/2350
+*/
+@font-face {
+    font-family: 'NotoSansM';
+    src: url('../fonts/NotoSansKR-Medium.woff2') format('woff2'), url('../fonts/NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansB';
+    src: url('../fonts/NotoSansKR-Bold.woff2') format('woff2'), url('../fonts/NotoSansKR-Bold.woff') format('woff');
+}
+
+.NotoSansB {
+    font-family: 'NotoSansB';
+}
+
+/*
+카페24(Cafe24)
+https://noonnu.cc/font_page/363
+*/
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('../fonts/Cafe24Ohsquare.woff2') format('woff2'), url('../fonts/Cafe24Ohsquare.woff') format('woff');
+}
